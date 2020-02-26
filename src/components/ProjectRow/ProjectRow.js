@@ -5,7 +5,7 @@ import { breakpoints } from '../Media';
 import Heading from '../Heading';
 import Paragraph from '../Paragraph';
 import smartBrain from '../../images/smartbrainProject.png';
-import vvReporting from '../../images/vvreportingProject.png';
+import shopifyProject from '../../images/shopifyProject.png';
 
 const ProjectContainer = styled.div`
     display: flex;
@@ -89,7 +89,7 @@ const Project = styled.div`
 
     :nth-child(2) {
         ${ProjectImage} {
-            background-image: url(${vvReporting});
+            background-image: url(${shopifyProject});
             background-size: cover;
             background-position-x: center;
             background-position-y: center;
@@ -167,18 +167,10 @@ function ProjectRow() {
                     <ProjectImage />
                 {/* </Link> */}
                 {/* <Link title='Virgin Project' to='/Coffee'> */}
-                    <SubHeading>Report System</SubHeading>
+                    <SubHeading>E-commerce App</SubHeading>
                 {/* </Link> */}
                 <ProjectParagraph>
-                    On Develop. Offline Reporting System for {' '}
-                    <a
-                      title="Virgin Voyages"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="http://bit.ly/38rO6XM"
-                    >
-                      Virgin Voyages
-                    </a>
+                Simple E-commerce app, built using JavaScript, ReactJS, Redux, Stripe and CSS.
                     
                 </ProjectParagraph>
 
@@ -189,7 +181,7 @@ function ProjectRow() {
                     </Link> */}
                     <a
                     title="Github Code"
-                    href="https://github.com/Dazpel/VV-Reporting-System"
+                    href="https://github.com/Dazpel/E-commerce"
                     target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -200,7 +192,7 @@ function ProjectRow() {
                     
                     <a
                     title="Live Site"
-                    href="https://silly-curran-6bce4e.netlify.com/"
+                    href="https://pensive-agnesi-9b9012.netlify.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     >

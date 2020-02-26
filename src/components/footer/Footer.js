@@ -12,8 +12,7 @@ const FooterCont = styled.div`
     width: 100%;
     height: 100%;
     background-color: #fcfcfc;
-    padding: 40px 0 0 0;
-    margin: 50px 0 0 0;
+
 
     a {
         text-align: left;
@@ -55,11 +54,13 @@ const Layout = styled.div`
 
 const TextContent = styled.div`
     max-width: 700px;
+
 `;
 
 const SubContainer = styled.div`
-    margin: 60px 0;
+    margin: 0 0 60px 0;
     width: 100%;
+    height:400px;
     display: flex;
     align-items: center;
     flex-wrap: wrap;

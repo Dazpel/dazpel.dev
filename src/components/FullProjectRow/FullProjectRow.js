@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import { breakpoints } from '../Media';
 import Heading from '../Heading';
 import Paragraph from '../Paragraph';
-import shopifyProject from '../../images/shopifyProject.png';
+import vvReporting from '../../images/virginProject.png';
 
 const ProjectContainer = styled.div`
     display: flex;
@@ -16,8 +16,7 @@ const ProjectContainer = styled.div`
     @media (min-width: ${breakpoints.mobileMax}) {
         flex-wrap: nowrap;
         margin-bottom: 70px;
-        margin-top: 40px;
-        height: 500px;
+        height: 550px;
     }
 `;
 
@@ -49,14 +48,14 @@ const ProjectLink = styled(Paragraph)`
 
 const ProjectImage = styled.div`
     width: 100%;
-    height: 350px;
+    height: 200px;
     border-radius: 4px;
     transition-duration: 0.3s;
 `;
 
 const Project = styled.div`
     width: 100%;
-    height: 450px;
+    height: 500px;
     margin-bottom: 90px;
     transition-duration: 0.3s;
 
@@ -85,14 +84,16 @@ const Project = styled.div`
 
     :nth-child(1) {
         ${ProjectImage} {
-            background-image: url(${shopifyProject});
-            background-size: cover;
+            background-image: url(${vvReporting});
+            background-size: contain;
+            background-repeat: no-repeat;
             background-position-x: 50%;
             background-position-y: 50%;
 
             @media (min-width: ${breakpoints.mobileMax}) {
                 background-position-x: 50%;
-                background-position-y: 50%;
+                background-position-y: 70%;
+                background-size: cover;
             }
         }
     }
@@ -126,9 +127,9 @@ function FullProjectRow() {
         <ProjectContainer>
             <Project>
                 <ProjectImage />
-                <SubHeading>Shopify E-commerce</SubHeading>
+                <SubHeading>Offline Reporting System</SubHeading>
                 <ProjectParagraph>
-                    Currently learning and building an application similar to Shopify, using React, Redux, Hooks, Graphql, Firebase, Saga and Stripe.
+                Currently working on this project for Virgin Voyages, to be used by Crew members to create, modify and store incident, injury and causes reports without external connection. using technologies such as ReactJS, Graphql, Apollo, FireBase and Chakra UI!
                 </ProjectParagraph>
                 
                 <ProjectLink>COMING SOON</ProjectLink>
