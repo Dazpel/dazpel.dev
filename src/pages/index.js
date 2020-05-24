@@ -151,12 +151,12 @@ class Page extends React.Component {
     return (
       <>
         <Layout>
-          <Link title="Home - David Perez" to="/">
+          <Link title="Home - Alexander Victoria" to="/">
             <Logo />
           </Link>
           <Helmet>
-            <title>David Perez - Front End Developer</title>
-            <meta name="title" content="David Perez - Front End Developer" />
+            <title>Alexander Victoria - Front End Developer</title>
+            <meta name="title" content="Alexander Victoria - Front End Developer" />
             <meta
               name="description"
               content="I’m passionate about technology, building and creating things from scratch, I enjoy being able to take ideas and trasnform them into something people can experience and interac twith."
@@ -165,7 +165,7 @@ class Page extends React.Component {
             <meta property="og:url" content="https://dazpel.dev/" />
             <meta        
               property="og:title"
-              content="David Perez - Front End Developer"
+              content="Alexander Victoria - Front End Developer"
             />
             <meta
               property="og:description"
@@ -176,7 +176,7 @@ class Page extends React.Component {
             <meta property="twitter:url" content="https://dazpel.dev/" />
             <meta
               property="twitter:title"
-              content="David Perez - Front End Developer"
+              content="Alexander Victoria - Front End Developer"
             />
             <meta
               property="twitter:description"
@@ -276,7 +276,7 @@ class Page extends React.Component {
                       <span>&#9675;</span> Javascript ES6
                     </Paragraph>
                     <Paragraph>
-                      <span>&#9675;</span> React
+                      <span>&#9675;</span> React.Js
                     </Paragraph>
                     <Paragraph>
                       <span>&#9675;</span> Gatsby
@@ -284,13 +284,13 @@ class Page extends React.Component {
                   </row>
                   <row>
                     <Paragraph>
-                      <span>&#9675;</span> Chakra UI
+                      <span>&#9675;</span> Firebase API
                     </Paragraph>
                     <Paragraph>
                       <span>&#9675;</span> Styled-Components
                     </Paragraph>
                     <Paragraph>
-                      <span>&#9675;</span> TailwindCSS
+                      <span>&#9675;</span> MongoDB
                     </Paragraph>
                   </row>
                   <row>
@@ -298,10 +298,10 @@ class Page extends React.Component {
                       <span>&#9675;</span> Git
                     </Paragraph>
                     <Paragraph>
-                      <span>&#9675;</span> Nodejs
+                      <span>&#9675;</span> Node.js
                     </Paragraph>
                     <Paragraph>
-                      <span>&#9675;</span> Graphql
+                      <span>&#9675;</span> Mongoose
                     </Paragraph>
                   </row>
                 </SkillTable>
@@ -312,12 +312,12 @@ class Page extends React.Component {
             <TextContent>
               <Heading> Projects I Have Worked On </Heading>
               <SubParagraph>
-                I'm always learning, studying and experimenting with new technologies, framkeworks and languages, check out some of the things I have built.
+                I'm always learning, studying and experimenting with new technologies, frameworks and languages, check out some of the things I have built.
               </SubParagraph>
             </TextContent>
           </SubContainer>
           <SubContainer>
-            <FullProjectRow />
+            {/* <FullProjectRow /> */}
           </SubContainer>
           <SubContainer>
             <ProjectRow />

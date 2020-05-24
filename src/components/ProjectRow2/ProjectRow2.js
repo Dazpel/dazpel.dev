@@ -4,8 +4,8 @@ import styled from 'styled-components';
 import { breakpoints } from '../Media';
 import Heading from '../Heading';
 import Paragraph from '../Paragraph';
-import nexterProject from '../../images/nexterProject.png';
-import natoursProject from '../../images/natoursProject.png';
+import smartbrain from '../../images/smartbrainProject.png';
+import curequest from '../../images/cureQuestScreens.jpg';
 
 const ProjectContainer = styled.div`
     display: flex;
@@ -87,7 +87,7 @@ const Project = styled.div`
 
     :nth-child(1) {
         ${ProjectImage} {
-            background-image: url(${natoursProject});
+            background-image: url(${curequest});
             background-size: cover;
             background-position-x: center;
             background-position-y: center;
@@ -96,7 +96,7 @@ const Project = styled.div`
 
     :nth-child(2) {
         ${ProjectImage} {
-            background-image: url(${nexterProject});
+            background-image: url(${smartbrain});
             background-size: cover;
             background-position-x: center;
             background-position-y: center;
@@ -139,10 +139,10 @@ function ProjectRow() {
                     <ProjectImage />
                 {/* </Link> */}
                 {/* <Link title='Natours Project' to='/Awkward'> */}
-                    <SubHeading>Natours</SubHeading>
+                    <SubHeading>CureQuest</SubHeading>
                 {/* </Link> */}
                 <ProjectParagraph>
-                    Website-Landing Page for a fictional company that offers tours in the nature
+                Covid related game, you play as a scientist who needs to travel between maps to recover the cure for the virus, while running away from the contamination and virus itself.
                 </ProjectParagraph>
                 {/* <Link title='Natours Project' to='/Awkward'>
                     <ProjectLink>
@@ -151,7 +151,7 @@ function ProjectRow() {
                     </Link> */}
                     <a
                     title="Github Code"
-                    href="https://github.com/Dazpel/Natours"
+                    href="https://github.com/Dazpel/CureDemo"
                     target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -162,7 +162,7 @@ function ProjectRow() {
                     
                     <a
                     title="Live Site"
-                    href="https://dazpel.github.io/Natours/"
+                    href="https://curequest.netlify.app/"
                     target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -173,28 +173,35 @@ function ProjectRow() {
                
             </Project>
             <Project>
-                {/* <Link title='Nexter Project' to='/Forecast'> */}
+                {/* <Link title='Clarifai Project' to='/Decore'> */}
                     <ProjectImage />
                 {/* </Link> */}
-                {/* <Link title='Nexter Project' to='/Forecast'> */}
-                    <SubHeading>Nexter</SubHeading>
+                {/* <Link title='Clarifai Project' to='/Decore'> */}
+                    <SubHeading>Smart Brain</SubHeading>
                 {/* </Link> */}
                 <ProjectParagraph>
-                    Landing Page for a fictional company that sells luxury apartments
-                </ProjectParagraph>
-
-                {/* <Link title='Nexter Project' to='/Forecast'>
-                    <ProjectLink>
-                    Read More <span>&#8250;</span>
-                    </ProjectLink>
-                    </Link> */}
+                    Web application for face detection using the {' '}
                     <a
+                      title="Clarifai API"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="http://bit.ly/3bCoPfu"
+                    >
+                      Clarifai API
+                    </a>
+                    
+                </ProjectParagraph>
+                {/* <Link title='Clarifai Project' to='/Decore'>
+                    <ProjectLink>
+                       Read more<span>&#8250;</span>
+                    </ProjectLink>
+                </Link> */}
+                <a
                     title="Github Code"
-                    href="https://github.com/Dazpel/Nexter"
+                    href="https://github.com/Dazpel/SmarBrain-App"
                     target="_blank"
                       rel="noopener noreferrer"
                     >
-                        
                     <ProjectLink>
                     <span>&#x2774;</span>Code<span>&#x2775;</span>
                     </ProjectLink>
@@ -202,7 +209,7 @@ function ProjectRow() {
                     
                     <a
                     title="Live Site"
-                    href="https://dazpel.github.io/Nexter/"
+                    href="https://smartbrainfronts.herokuapp.com/"
                     target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -210,7 +217,6 @@ function ProjectRow() {
                     Demo <span >	&#9654;</span>
                     </ProjectLink>
                     </a>
-                
             </Project>
         </ProjectContainer>
     );

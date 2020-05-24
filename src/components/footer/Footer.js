@@ -135,7 +135,7 @@ function Footer(props) {
                             title='Github Repository'
                             target='_blank'
                             rel='noreferrer noopener'
-                            href='https://bit.ly/2UMe6cv'
+                            href='https://github.com/Dazpel'
                         >
                             github
                         </a>
@@ -143,7 +143,7 @@ function Footer(props) {
                             title='Linkedin'
                             target='_blank'
                             rel='noreferrer noopener'
-                            href='https://bit.ly/31O7Ou7'
+                            href='https://www.linkedin.com/in/dazpel/'
                         >
                             linkedin
                         </a>

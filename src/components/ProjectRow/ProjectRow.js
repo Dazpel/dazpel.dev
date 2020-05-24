@@ -4,8 +4,8 @@ import styled from 'styled-components';
 import { breakpoints } from '../Media';
 import Heading from '../Heading';
 import Paragraph from '../Paragraph';
-import smartBrain from '../../images/smartbrainProject.png';
-import shopifyProject from '../../images/shopifyProject.png';
+import splitex from '../../images/splitexScreens.jpg';
+import stocktrek from '../../images/stocktrekScreens.jpg';
 
 const ProjectContainer = styled.div`
     display: flex;
@@ -80,7 +80,7 @@ const Project = styled.div`
 
     :nth-child(1) {
         ${ProjectImage} {
-            background-image: url(${smartBrain});
+            background-image: url(${splitex});
             background-size: cover;
             background-position-x: center;
             background-position-y: center;
@@ -89,7 +89,7 @@ const Project = styled.div`
 
     :nth-child(2) {
         ${ProjectImage} {
-            background-image: url(${shopifyProject});
+            background-image: url(${stocktrek});
             background-size: cover;
             background-position-x: center;
             background-position-y: center;
@@ -121,18 +121,10 @@ function ProjectRow() {
                     <ProjectImage />
                 {/* </Link> */}
                 {/* <Link title='Clarifai Project' to='/Decore'> */}
-                    <SubHeading>Smart Brain</SubHeading>
+                    <SubHeading>Splitex</SubHeading>
                 {/* </Link> */}
                 <ProjectParagraph>
-                    Web application for face detection using the {' '}
-                    <a
-                      title="Clarifai API"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="http://bit.ly/3bCoPfu"
-                    >
-                      Clarifai API
-                    </a>
+                    Web application for group trips, that allows you to chat with your group, upload images and upload receipts to keep track of expenses, all in one place.
                     
                 </ProjectParagraph>
                 {/* <Link title='Clarifai Project' to='/Decore'>
@@ -142,7 +134,7 @@ function ProjectRow() {
                 </Link> */}
                 <a
                     title="Github Code"
-                    href="https://github.com/Dazpel/SmarBrain-App"
+                    href="https://github.com/Dazpel/Fasces"
                     target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -153,7 +145,7 @@ function ProjectRow() {
                     
                     <a
                     title="Live Site"
-                    href="https://smartbrainfronts.herokuapp.com/"
+                    href="https://splitex.netlify.app/"
                     target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -167,10 +159,10 @@ function ProjectRow() {
                     <ProjectImage />
                 {/* </Link> */}
                 {/* <Link title='Virgin Project' to='/Coffee'> */}
-                    <SubHeading>E-commerce App</SubHeading>
+                    <SubHeading>StockTrek</SubHeading>
                 {/* </Link> */}
                 <ProjectParagraph>
-                Simple E-commerce app, built using JavaScript, ReactJS, Redux, Stripe and CSS.
+                Fintech website in which you can track any company stock, get access to news based on the stock, the stock movement in intervals, and create your own watchlist after you sign-up, we also provide dark theme in case you enjoy it.
                     
                 </ProjectParagraph>
 
@@ -181,7 +173,7 @@ function ProjectRow() {
                     </Link> */}
                     <a
                     title="Github Code"
-                    href="https://github.com/Dazpel/E-commerce"
+                    href="https://github.com/Dazpel/Project-2"
                     target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -192,7 +184,7 @@ function ProjectRow() {
                     
                     <a
                     title="Live Site"
-                    href="https://pensive-agnesi-9b9012.netlify.com/"
+                    href="https://stocktrek.netlify.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                     >
