@@ -58,7 +58,8 @@ const ProjectImage = styled.div`
 
 const Project = styled.div`
     width: 100%;
-    height: 500px;
+    height: auto;
+    margin-bottom: 15px;
     
     transition-duration: 0.3s;
 
